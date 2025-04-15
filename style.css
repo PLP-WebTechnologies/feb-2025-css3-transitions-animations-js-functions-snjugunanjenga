@@ -22,12 +22,12 @@ body {
   
   body.dark-theme {
     background-color: #111;
-    color: #eee;
+    color: #8457b8;
   }
   
   body.colorful-theme {
     background: linear-gradient(to right, #ff6f91, #ffc107, #2196f3);
-    color: #fff;
+    color: #b30606;
   }
   
   /* Buttons */
