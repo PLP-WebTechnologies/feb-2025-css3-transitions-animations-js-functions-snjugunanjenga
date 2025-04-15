@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEEK 7 – Transitions & LocalStorage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="title">🌈 CSS & JS Magic</h1>
+    <p>Try changing the theme and triggering animations!</p>
+  </header>
+
+  <!-- Theme Selection -->
+  <section>
+    <h2>🎨 Choose a Theme</h2>
+    <button class="theme-btn" onclick="setTheme('light')">Light Theme</button>
+    <button class="theme-btn" onclick="setTheme('dark')">Dark Theme</button>
+    <button class="theme-btn" onclick="setTheme('colorful')">Colorful Theme</button>
+  </section>
+
+  <!-- Animated Image -->
+  <section>
+    <h2>✨ Animate This!</h2>
+    <img id="funImage" src="https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg" alt="Fun" />
+    <br />
+    <button onclick="triggerAnimation()">Make It Bounce!</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    Author: Cpt. SNN | Institution: PLP Academy Feb 2025 Cohort <br />
+    &copy; 2025 All Copyright rights reserved.
+    <br />
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
